@@ -7,4 +7,5 @@ Rails.application.routes.draw do
     get 'maple-bacon' => 'cupcakes#maple_bacon'
     get 'red-velvet' => 'cupcakes#red_velvet'
   end
+
 end
