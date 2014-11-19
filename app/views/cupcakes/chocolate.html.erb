@@ -1,0 +1,10 @@
+<h1>Different frostings use different amounts.</h1>
+
+<ul>
+<% @frostings.each do |topping, amount| %>
+  <li>
+    <%= topping %>:
+    <%= amount %>
+  </li>
+<% end %>
+</ul>
